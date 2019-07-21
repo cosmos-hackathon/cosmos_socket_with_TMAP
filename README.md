@@ -2,6 +2,6 @@
 
 Backend - Socketio / Frontend - JS with T MAP API
 
-you can use just npm install --save
+you can use type   ```npm install --save```
 
 
