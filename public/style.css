@@ -1,0 +1,22 @@
+.popup {
+    display: none;
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 55vh;
+}
+
+.popup img {
+    width: 80%;
+    height: 80%;
+}
+
+#wallet {
+    font-size: 5vw;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body onload="initTmap()">
+
+    <!-- html -->
+    <p id="wallet">Wallet : <span id="money"></span></p>
+    <div id='map-layer'>
+        <div id='map_div'></div>
+    </div>
+    <input type="text" name="uid" id="uid">
+    <div class="popup">
+        <img src="img/overloaded_truck.jpg" alt="overloaded_truck"><br>
+        <button id="accept-button" onclick="accept()">Accept</button>
+        <button id="deny-button" onclick="deny()">Deny</button>
+    </div>
+
+
+
+
+
+    <!-- js -->
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="script.js?v=1"></script>
+    <script
+        src="https://api2.sktelecom.com/tmap/js?version=1&format=javascript&appKey={T_MAP_API_KEY}"></script>
+
+
+
+</body>
+
+</html>
